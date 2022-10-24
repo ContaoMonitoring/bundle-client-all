@@ -1,33 +1,38 @@
 {
-	"name":"contao-monitoring/bundle-client-all",
-	"description":"Installs the Contao Monitoring Client and all available sensors.",
-	"keywords":["contao", "monitoring", "client", "bundle", "metapackage"],
-	"type":"metapackage",
-	"homepage":"https://github.com/ContaoMonitoring",
-	"license":"LGPL-3.0+",
-	"authors":[
+	"name": "contao-monitoring/bundle-client-all",
+	"description": "Installs the Contao Monitoring Client and all available sensors.",
+	"keywords": [
+		"contao",
+		"monitoring",
+		"client",
+		"bundle",
+		"metapackage"
+	],
+	"type": "metapackage",
+	"homepage": "https://github.com/ContaoMonitoring",
+	"license": "LGPL-3.0-or-later",
+	"authors": [
 		{
-			"name":"Cliff Parnitzky",
-			"email":"contao@cliff-parnitzky.de",
-			"role":"Developer"
+			"name": "Cliff Parnitzky",
+			"email": "contao@cliff-parnitzky.de",
+			"role": "Developer"
 		}
 	],
-	"support":{
-		"email":"contao@cliff-parnitzky.de",
-		"issues":"https://github.com/ContaoMonitoring/bundle-client-all/issues",
-		"source":"https://github.com/ContaoMonitoring/bundle-client-all"
+	"support": {
+		"email": "contao@cliff-parnitzky.de",
+		"issues": "https://github.com/ContaoMonitoring/bundle-client-all/issues",
+		"source": "https://github.com/ContaoMonitoring/bundle-client-all"
 	},
-	"require":{
-		"php":">=5.6",
-		"contao/core-bundle":"~4.9",
-		"contao-community-alliance/composer-plugin":"~3.0",
-		"contao-monitoring/monitoring-client":"~1.0",
-		"contao-monitoring/monitoring-client-sensor-server":"~1.0",
-		"contao-monitoring/monitoring-client-sensor-contao":"~2.0"
+	"require": {
+		"php": "^8.1",
+		"contao/core-bundle": "^5.0",
+		"contao-monitoring/monitoring-client": "~2.0",
+		"contao-monitoring/monitoring-client-sensor-server": "~2.0",
+		"contao-monitoring/monitoring-client-sensor-contao": "~3.0"
 	},
-	"extra":{
+	"extra": {
 		"branch-alias": {
-			"dev-master": "2.0.x-dev"
+			"dev-master": "3.0.x-dev"
 		}
 	}
 }

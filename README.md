@@ -27,4 +27,4 @@ https://github.com/ContaoMonitoring/bundle-client-all/issues
 Compatibility
 -------------
 
-- Contao version >= 4.9.0
+- Contao version >= 5.0.0
